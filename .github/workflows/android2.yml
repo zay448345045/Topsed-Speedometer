@@ -38,7 +38,7 @@ jobs:
 
       # 4. 直接使用全局 gradle 命令执行编译打包
       - name: Build Release APK with Gradle
-        run: gradle assembleRelease
+        run: gradle assembleDebug
 
       # 5. 使用 Marketplace 官方 Action 上传 APK 到 GitHub Releases
       - name: Upload APK to GitHub Release
